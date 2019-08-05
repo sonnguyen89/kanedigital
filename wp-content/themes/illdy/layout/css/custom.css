@@ -165,3 +165,59 @@
 		padding: 0;
 	}
 }
+
+
+
+/** CUSTOMIZE THE THEME FOR KANE DIGITAL ***/
+
+
+#header .top-header .header-logo.custom-header-logo
+{
+	font-size: 40px;
+	float: left;
+	line-height: 108px;
+}
+#header .header-logo-img.custom-header-logo-img
+{
+	float: left;
+}
+
+#header.header-front-page .bottom-header h1 {
+	color: #ffffff !important;
+}
+
+
+#about .section-header .section-description {
+	color: #8c9597 !important;
+}
+
+#services .section-header .section-description
+{
+	color: #ffffff !important;
+	text-decoration: none;
+}
+#contact-us .section-header .section-description {
+	color: #0a0003 !important;
+}
+#contact-us .section-content .contact-us-box .box-right span{
+	color: #0a0003 !important;
+}
+#contact-us .section-content .contact-us-box .box-right span a {
+	color: #0a0003 !important;
+	text-decoration: none;
+}
+
+#contact-us .section-content .contact-us-box .box-left
+{
+	color: #0a0003 !important;
+	border-right: 1px solid #0a0003 !important;
+}
+
+#contact-us .section-content .contact-us-social a
+{
+	color: #0a0003 !important;
+}
+
+#projects:before {
+	background-image: url(http://www.local.kanedigital.com/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}

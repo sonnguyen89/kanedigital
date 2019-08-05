@@ -86,7 +86,8 @@ if ( get_theme_mod( 'illdy_sticky_header_enable', false ) ) {
 
 					<?php if ( ! empty( $logo_image ) ) : ?>
 						<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
-							<img class="header-logo-img" src="<?php echo esc_url( $logo_image[0] ); ?>" width="<?php echo $logo_width ? esc_attr( $logo_width ) : ''; ?>"/>
+							<img class="header-logo-img custom-header-logo-img" src="<?php echo esc_url( $logo_image[0] ); ?>" width="<?php echo $logo_width ? esc_attr( $logo_width ) : ''; ?>"/>
+                            <span class="header-logo custom-header-logo"> <?php echo esc_html( get_bloginfo( 'name' ) ); ?> </span>
 						</a>
 					<?php else : ?>
 					<?php if ( get_option( 'show_on_front' ) == 'page' ) { ?>
