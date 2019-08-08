@@ -190,12 +190,21 @@
 #about .section-header .section-description {
 	color: #8c9597 !important;
 }
-
+#projects .section-header .section-description
+{
+	color: #0a0003 !important;
+	text-decoration: none;
+}
 #services .section-header .section-description
 {
 	color: #ffffff !important;
 	text-decoration: none;
 }
+
+#counter{
+	padding: 60px 0;
+}
+
 #contact-us .section-header .section-description {
 	color: #0a0003 !important;
 }
